@@ -155,22 +155,26 @@ h1{
     background-position: center;
     background-attachment: fixed;
 }
-button{
+ .hotels button{
     background-color:#A9CCE3;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 600;
     padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.7s ease;
     margin-left: 35%;
     margin-top: 10%;
+    border: 2px solid yellow;
 }
 button:hover{
     transform: scale(1.1);
 }
+button a{
+    text-decoration: none;
+    
+    letter-spacing: 1px;
+    color: white;
+}
+
 .section-hotels p{
     font-size: 30px;
     padding-top: 30px;
